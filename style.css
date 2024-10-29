@@ -25,7 +25,50 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+a {
+  text-decoration: none;
+}
 /*=====header=====*/
 .header {
-  background-color: #3ecfe9;
+  background-color: aqua;
+}
+
+.header-name {
+  padding-top: 20px;
+}
+/*----- cruise------*/
+
+.container {
+  width: 360px;
+  margin-left: 8px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  padding-top: 14px;
+}
+
+.cruise {
+  padding-top: 20px;
+}
+
+.task-cruise {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.cruise-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  border: #434455;
+}
+
+.cruise-item {
+  border: 1px solid #8e8f99;
+  border-radius: 8px;
+  width: 360px;
 }
