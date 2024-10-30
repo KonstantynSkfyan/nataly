@@ -68,7 +68,24 @@ a {
 }
 
 .cruise-item {
+  overflow: hidden;
   border: 1px solid #8e8f99;
   border-radius: 8px;
   width: 360px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.children-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  border: #434455;
+}
+
+.children-item {
+  overflow: hidden;
+  border: 1px solid #8e8f99;
+  border-radius: 8px;
+  width: 360px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
