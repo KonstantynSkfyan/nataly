@@ -54,6 +54,7 @@ a {
 
 .cruise {
   padding-top: 20px;
+  background-color: rgba(99, 243, 254, 0.2);
 }
 
 .task-cruise {
@@ -69,6 +70,7 @@ a {
 }
 
 .cruise-item {
+  background: white;
   overflow: hidden;
   border: 1px solid #8e8f99;
   border-radius: 8px;
