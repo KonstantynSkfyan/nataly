@@ -41,18 +41,17 @@ a {
   padding-top: 20px;
 }
 
+.header-nav {
+  margin-right: 1.5em;
+}
 .header-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/*----- cruise------*/
-
-.container {
-  width: 360px;
-  margin-left: 8px;
-  margin: auto;
+.main-name {
+  margin-left: 1.3em;
 }
 
 .nav-list {
@@ -60,6 +59,13 @@ a {
   gap: 18px;
   justify-content: center;
   padding-top: 14px;
+}
+/*----- cruise------*/
+
+.container {
+  /*width: 360px;*/
+  margin-left: 8px;
+  margin: auto;
 }
 
 .cruise {
@@ -77,6 +83,8 @@ a {
   flex-wrap: wrap;
   gap: 15px;
   border: #434455;
+  align-items: calc();
+  margin: auto;
 }
 
 .cruise-item {
@@ -88,6 +96,7 @@ a {
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
+/*------children-------*/
 .children-list {
   display: flex;
   flex-wrap: wrap;
