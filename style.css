@@ -81,10 +81,10 @@ a {
 .cruise-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 25px;
   border: #434455;
-  align-items: calc();
-  margin: auto;
+  justify-content: center;
+  padding-bottom: 15px;
 }
 
 .cruise-item {
@@ -102,6 +102,7 @@ a {
   flex-wrap: wrap;
   gap: 15px;
   border: #434455;
+  justify-content: center;
 }
 
 .children-item {
