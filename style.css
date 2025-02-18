@@ -65,6 +65,10 @@ a {
   justify-content: center;
   padding-top: 14px;
 }
+
+.nav-item:hover {
+  text-decoration: underline;
+}
 /*----- cruise------*/
 
 .container {
