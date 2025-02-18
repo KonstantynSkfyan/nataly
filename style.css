@@ -4,6 +4,11 @@ body {
   color: #434455;
   background-color: #ffffff;
   line-height: 1.2;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 60, 255),
+    rgb(0, 132, 255)
+  );
 }
 ul {
   list-style-type: none;
@@ -63,7 +68,7 @@ a {
 /*----- cruise------*/
 
 .container {
-  /*width: 360px;*/
+  width: 1000px;
   margin-left: 8px;
   margin: auto;
 }
@@ -71,6 +76,11 @@ a {
 .cruise {
   padding-top: 20px;
   background-color: rgba(99, 243, 254, 0.2);
+}
+
+.cruise-title {
+  color: aqua;
+  text-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .task-cruise {
@@ -93,6 +103,7 @@ a {
   border: 1px solid #8e8f99;
   border-radius: 8px;
   width: 360px;
+
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
