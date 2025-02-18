@@ -1,13 +1,12 @@
 body {
-  /*font-family: "Roboto", sans-serif;*/
-  font-family: Playwrite GB S, sans-serif;
+   font-family: Playwrite GB S, sans-serif;
   color: #434455;
   background-color: #ffffff;
   line-height: 1.2;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     rgb(0, 60, 255),
-    rgb(0, 132, 255)
+    rgb(0, 132, 255) */
   );
 }
 ul {
@@ -52,7 +51,7 @@ a {
 .header-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .main-name {
@@ -72,9 +71,9 @@ a {
 /*----- cruise------*/
 
 .container {
-  width: 1000px;
-  margin-left: 8px;
-  margin: auto;
+  /* width: 1000px; */
+  /* margin-left: 8px;
+  margin: auto; */
 }
 
 .cruise {
@@ -97,8 +96,9 @@ a {
   flex-wrap: wrap;
   gap: 25px;
   border: #434455;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-bottom: 15px;
+ 
 }
 
 .cruise-item {
