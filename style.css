@@ -1,13 +1,13 @@
 body {
-   font-family: Playwrite GB S, sans-serif;
+  font-family: Playwrite GB S, sans-serif;
   color: #434455;
   background-color: #ffffff;
   line-height: 1.2;
-  /* background-image: linear-gradient(
-    to right,
-    rgb(0, 60, 255),
-    rgb(0, 132, 255) */
-  );
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
 }
 ul {
   list-style-type: none;
@@ -51,7 +51,7 @@ a {
 .header-list {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .main-name {
@@ -71,9 +71,9 @@ a {
 /*----- cruise------*/
 
 .container {
-  /* width: 1000px; */
-  /* margin-left: 8px;
-  margin: auto; */
+  width: 1000px;
+  /* margin-left: 8px; */
+  margin: auto;
 }
 
 .cruise {
@@ -89,6 +89,7 @@ a {
 .task-cruise {
   padding-top: 20px;
   padding-bottom: 25px;
+  color: #ffffff;
 }
 
 .cruise-list {
@@ -98,8 +99,7 @@ a {
   border: #434455;
   justify-content: space-evenly;
   padding-bottom: 15px;
-  align-items: stretch;  
-  
+  align-items: stretch;
 }
 
 .cruise-item {
@@ -110,11 +110,7 @@ a {
   width: 360px;
   object-fit: fill;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
-  /* flex-grow: 1; */
 }
-/* .move {
-  padding-top: 60px;
-} */
 
 /*------children-------*/
 .children-list {
